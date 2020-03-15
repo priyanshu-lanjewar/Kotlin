@@ -15,13 +15,13 @@ fun main(args : Array<String>)
     }
     var count:Int=0
     print("Enter Element to search => ")
-    var element:Int=input.nextInt()
+    val element:Int=input.nextInt()
     println()
     for( i in 0 until 10)
     {
         if(A1[i]==element)
             count++
     }
-    if(count==0) print("Element is no present in an Array ")
+    if(count==0) print("Element is not present in an Array ")
     else print("Element is present $count time(s) in an Array ")
 }
