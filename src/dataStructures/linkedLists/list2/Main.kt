@@ -1,9 +1,7 @@
 package dataStructures.linkedLists.list2
-
 import java.util.*
-
-fun main(args: Array<String>) {
-
+fun main(args: Array<String>) 
+{
     val input=Scanner(System.`in`)
     var Start:Node? =null
     var temp:Node?= Node()
@@ -28,11 +26,7 @@ fun main(args: Array<String>) {
                 temp?.next=null
                 break
             }
-
-
         temp= temp?.next
-
-
     }
     println()
     temp=Start
