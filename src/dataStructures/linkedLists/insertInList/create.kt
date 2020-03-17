@@ -1,7 +1,5 @@
 package dataStructures.linkedLists.insertInList
-
 fun create() {
-
     temp=Node()
     Start=temp
     while (true) {
@@ -21,8 +19,6 @@ fun create() {
         if (ch == 'y') {
             temp?.next = Node()
             temp = temp?.next
-
-
         } else {
             temp?.next = null
             tail= temp

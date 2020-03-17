@@ -1,5 +1,4 @@
 package dataStructures.linkedLists.insertInList
-
 fun delete()
 {
     var check:Int=0
@@ -16,7 +15,6 @@ fun delete()
     }
     while(temp?.next!=null)
     {
-
         if(id==temp?.`emp id`)
         {
             pre?.next=temp?.next

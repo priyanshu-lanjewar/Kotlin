@@ -1,5 +1,5 @@
 package dataStructures.linkedLists.insertInList
-fun diaplay() {
+fun display() {
     temp = Start
 
     while (temp != null) {

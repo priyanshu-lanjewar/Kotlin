@@ -1,5 +1,4 @@
 package dataStructures.linkedLists.insertInList
-
 fun insert()
 {
     print("1 : to enter @ begin\n2 : to enter @ end\nInput Goes Here = > ")

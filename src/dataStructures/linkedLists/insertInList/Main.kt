@@ -1,7 +1,5 @@
 package dataStructures.linkedLists.insertInList
-
 import java.util.*
-
 val input=Scanner(System.`in`)
 var name:String? = null
 var id:Int? = null
@@ -21,7 +19,7 @@ fun main(args: Array<String>)
             1 -> create()
             2 -> insert()
             2 -> insert()
-            3 -> diaplay()
+            3 -> display()
             4 -> delete()
         }
     }

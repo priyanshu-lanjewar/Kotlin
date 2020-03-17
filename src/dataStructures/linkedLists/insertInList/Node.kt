@@ -1,5 +1,4 @@
 package dataStructures.linkedLists.insertInList
-
 class Node
 {
     var `emp id`:Int?=null
