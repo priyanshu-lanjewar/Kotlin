@@ -2,11 +2,12 @@ package dataStructures.linkedLists.list2
 
 import java.util.*
 
-fun main(args: Array<String>) {
+fun main(args: Array<String>)
+{
 
     val input=Scanner(System.`in`)
     var Start:Node? =null
-    var temp:Node?= Node()
+    var temp:Node?= null
     var roll:Int?
     var marks:Double?
     Start=temp
