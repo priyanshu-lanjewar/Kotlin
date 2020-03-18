@@ -1,6 +1,6 @@
 package highLevelFunctions
 
-import java.util.*
+import java.util.Scanner
 
 fun main()
 {
