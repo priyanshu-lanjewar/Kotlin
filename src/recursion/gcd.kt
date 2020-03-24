@@ -9,6 +9,8 @@ fun gcd(n1: Int, n2: Int): Int
 
 fun main()
 {
+    val k=10
+    print("Hello $k")
     print("Enter two Number : ")
     print("GCD OF 2 NUMBER IS : ${gcd(Scanner(System.`in`).nextInt(),Scanner(System.`in`).nextInt())}")
 }
